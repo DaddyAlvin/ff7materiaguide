@@ -1,0 +1,13 @@
+/* Summons Page Specific Styles */
+body {
+    background-color: rgb(100, 150, 200) !important; /* Example: Change to a different background color */
+}
+
+.box {
+    background-color: #222; /* Example: Darker box background for Summons */
+    border: 2px solid #f00; /* Add border as an example */
+}
+
+h1 {
+    color: #000000; /* Make the header color white */
+}
