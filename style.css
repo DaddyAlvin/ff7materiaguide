@@ -1,5 +1,7 @@
 /* Global Styles */
-body, html {
+body,
+html {
+    color: white;
     height: 100%; /* Full height for the body and html */
     margin: 0; /* Remove default margin */
     display: flex; /* Use Flexbox */
@@ -29,7 +31,7 @@ a {
 
 a:hover {
     background: linear-gradient(90deg, rgba(211, 47, 47, 0.7), rgba(211, 47, 47, 0.5)); /* Limit bar effect */
-    color: rgb(8, 251, 32); /* Change text color on hover */
+    color: rgb(255, 255, 255); /* Change text color on hover */
     cursor: pointer; /* Change cursor to pointer on hover */
 }
 
@@ -41,11 +43,12 @@ h1 {
     border-radius: 12px; /* Rounded corners */
     padding: 20px; /* Padding for space around text */
     margin: 20px 0; /* Margin above and below */
-    box-shadow: 
+    box-shadow:
         0 4px 8px rgba(0, 0, 0, 0.2), /* Lower shadow for depth */
         0 2px 4px rgba(255, 255, 255, 0.5); /* Upper highlight for gloss effect */
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25); /* Slight text shadow for readability */
 }
+
 /* Header Title Styles */
 h3 {
     font-size: xx-large; /* Large font size */
@@ -54,12 +57,11 @@ h3 {
     border-radius: 12px; /* Rounded corners */
     padding: 20px; /* Padding for space around text */
     margin: 20px 0; /* Margin above and below */
-    box-shadow: 
+    box-shadow:
         0 4px 8px rgba(0, 0, 0, 0.2), /* Lower shadow for depth */
         0 2px 4px rgba(255, 255, 255, 0.5); /* Upper highlight for gloss effect */
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25); /* Slight text shadow for readability */
 }
-
 
 /* Link Container Styles */
 .link-container {
@@ -69,27 +71,6 @@ h3 {
     width: 100%; /* Full width of the parent */
     max-width: 800px; /* Optional: max width for better layout */
     margin-bottom: 20px; /* Space below the link container */
-}
-
-/* Link Box Styles */
-.link-box {
-    background: #3b3b3b; /* Dark gray background for the boxes */
-    color: #FFFFFF; /* White text color */
-    padding: 20px; /* Padding for space inside the box */
-    text-align: center; /* Center align the text */
-    margin: 10px; /* Margin for spacing between boxes */
-    border: 1px solid rgba(255, 255, 255, 0.1); /* Subtle border */
-    box-shadow: 
-        0 4px 12px rgba(0, 0, 0, 0.3), /* Normal shadow */
-        0 2px 6px rgba(255, 255, 255, 0.1); /* Highlight shadow */
-    transition: transform 0.3s, box-shadow 0.3s; /* Transition for hover effects */
-}
-
-.link-box:hover {
-    transform: translateY(-5px); /* Lift the box on hover */
-    box-shadow: 
-        0 8px 24px rgba(0, 0, 0, 0.4), /* Deeper shadow on hover */
-        0 4px 12px rgba(255, 255, 255, 0.2); /* Increased highlight */
 }
 
 /* Box Styles */
@@ -118,4 +99,15 @@ img {
 .image-container p {
     margin-top: 10px; /* Margin to space text from the image */
     color: #FFFFFF; /* White text for clarity */
+    text-align: center; /* Center the text */
+}
+
+/* Fact Container Styles */
+.fact-container {
+    margin: 20px;
+    padding: 15px;
+    background: rgba(3, 58, 49, 0.6);
+    border-radius: 8px;
+    width: 80%;
+    max-width: 800px;
 }
