@@ -45,8 +45,8 @@ a {
 }
 
 a:hover {
-    background: linear-gradient(90deg, rgba(211, 47, 47, 0.7), rgba(211, 47, 47, 0.5));
-    /* Limit bar effect */
+    background: linear-gradient(90deg, rgba(0, 100, 0, 0.7), rgba(0, 100, 0, 0.5));
+    /* Change to dark green on hover */
     color: rgb(8, 251, 32);
     /* Change text color on hover */
     cursor: pointer;
@@ -72,8 +72,6 @@ h1 {
         /* Lower shadow for depth */
         0 2px 4px rgba(255, 255, 255, 0.5);
     /* Upper highlight for gloss effect */
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
-    /* Slight text shadow for readability */
 }
 
 /* Header Title Styles */
@@ -95,10 +93,7 @@ h2 {
         /* Lower shadow for depth */
         0 2px 4px rgba(255, 255, 255, 0.5);
     /* Upper highlight for gloss effect */
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
-    /* Slight text shadow for readability */
 }
-
 
 /* Link Container Styles */
 .link-container {
